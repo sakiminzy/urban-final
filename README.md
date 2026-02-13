@@ -14,3 +14,9 @@ Urban Harvest is a web application developed as part of a Computer Science proje
 npm install
 npm run server
 npm run dev
+
+
+
+## Lighthouse Report
+
+![Lighthouse Report](lighthouse.jpeg)
