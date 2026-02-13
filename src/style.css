@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --bg: #f2f2f2;
+  --text: #111111;
+  --surface: #f2f2f2;
+  --accent: #42976b;
+  --muted: #606060;
+  --border: #cdcdcd;
+  --card-radius: 32px;
+  --image-radius: 24px;
+  --category-bg: #a6a6a6;
+  --placeholder-bg: #ededed;
+}
+
+.dark {
+  color-scheme: dark;
+  --bg: #101614;
+  --text: #f4f4f4;
+  --surface: #101614;
+  --accent: #66c595;
+  --muted: #b2b2b2;
+  --border: #2a2f2d;
+}
+
+@layer base {
+  body {
+    @apply bg-[color:var(--bg)] text-[color:var(--text)] font-sans antialiased;
+    font-family: "Instrument Sans", sans-serif;
+  }
+
+  a {
+    @apply text-[color:var(--text)] hover:text-[color:var(--accent)];
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-[color:var(--accent)] px-4 py-2.5 text-base font-normal text-white transition hover:opacity-90;
+  }
+
+  .card {
+    @apply rounded-[32px] border border-[color:var(--border)] bg-[color:var(--surface)] p-5 shadow-sm;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold tracking-tight;
+  }
+
+  .badge {
+    @apply rounded-full border border-[color:var(--border)] px-3 py-2 text-sm;
+  }
+
+  .category-badge {
+    @apply rounded-full px-4 py-1 text-sm text-white;
+    background-color: var(--category-bg);
+  }
+
+  .rounded-card {
+    border-radius: var(--card-radius);
+  }
+
+  .rounded-image {
+    border-radius: var(--image-radius);
+  }
+
+  .bg-image-placeholder {
+    background-color: var(--placeholder-bg);
+  }
+
+  .bg-category-badge {
+    background-color: var(--category-bg);
+  }
+}
+
+@layer utilities {
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[color:var(--accent)] focus-visible:ring-offset-2;
+  }
+
+  .font-display {
+    font-family: "Syne", sans-serif;
+  }
+}

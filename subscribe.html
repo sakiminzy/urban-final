@@ -1,0 +1,190 @@
+﻿<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Start your Urban Harvest subscription. Choose your plan and get farm-fresh produce delivered to your door with smart, flexible subscriptions." />
+    <meta name="theme-color" content="#42976b" />
+    <link rel="canonical" href="https://urbanharvest.com/subscribe" />
+    <title>Urban Harvest | Subscribe</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Syne:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap"
+    />
+  </head>
+  <body class="min-h-screen" data-api-base="http://localhost:3000">
+    <div class="mx-auto flex min-h-screen w-full max-w-[1440px] flex-col gap-10 px-10 pt-10">
+      <header class="flex items-center justify-between">
+        <a href="/index.html" class="flex h-11 w-11 items-center justify-center focus-ring" aria-label="Urban Harvest home">
+          <img class="h-9 w-9" data-theme-logo-dark src="/src/assets/images/logo_d.svg" alt="" />
+          <img class="hidden h-9 w-9" data-theme-logo-light src="/src/assets/images/logo_l.svg" alt="" />
+        </a>
+        <div class="flex items-center gap-6">
+          <nav class="hidden items-center gap-5 text-base text-[color:var(--text)] lg:flex" data-nav-menu id="primary-nav">
+            <a class="focus-ring" data-nav-link href="/index.html">Home</a>
+            <a class="focus-ring" data-nav-link href="/products.html">Products</a>
+            <a class="focus-ring" data-nav-link href="/subscribe.html" aria-current="page">Subscribe</a>
+            <a class="focus-ring" data-nav-link href="/community.html">Community</a>
+            <a class="focus-ring" data-nav-link href="/about.html">About</a>
+          </nav>
+          <button
+            class="hidden h-6 w-6 items-center justify-center text-[color:var(--text)] lg:flex"
+            data-theme-toggle
+            aria-pressed="false"
+            aria-label="Toggle dark mode"
+            type="button"
+          >
+            <span class="material-symbols-outlined text-[22px]" data-theme-icon>dark_mode</span>
+            <span class="sr-only" data-theme-label>Dark Mode</span>
+          </button>
+          <button
+            class="flex items-center justify-center rounded-full border border-[color:var(--border)] p-2 text-[color:var(--text)] lg:hidden focus-ring"
+            data-nav-toggle
+            aria-expanded="false"
+            aria-controls="primary-nav-mobile"
+            aria-label="Toggle menu"
+            type="button"
+          >
+            <span class="material-symbols-outlined text-[22px]">menu</span>
+          </button>
+        </div>
+      </header>
+
+      <nav
+        id="primary-nav-mobile"
+        data-nav-menu
+        class="hidden flex w-full flex-col gap-4 rounded-2xl border border-[color:var(--border)] bg-[color:var(--surface)] px-6 py-4 text-base text-[color:var(--text)] lg:hidden"
+        aria-hidden="true"
+        hidden
+      >
+        <a class="focus-ring" data-nav-link href="/index.html">Home</a>
+        <a class="focus-ring" data-nav-link href="/products.html">Products</a>
+        <a class="focus-ring" data-nav-link href="/subscribe.html">Subscribe</a>
+        <a class="focus-ring" data-nav-link href="/community.html">Community</a>
+        <a class="focus-ring" data-nav-link href="/about.html">About</a>
+      </nav>
+
+      <main class="flex flex-1 flex-col gap-10">
+        <section class="space-y-4">
+          <h1 class="font-display text-[44px] font-medium leading-[1] tracking-[-0.04em] text-[color:var(--text)] sm:text-[52px]">
+            Subscribe to a harvest plan
+          </h1>
+          <p class="text-lg leading-6 text-[color:var(--muted)]">
+            Flexible plans that adapt to your household size, dietary preferences, and weekly rhythm.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <span class="rounded-full border border-[color:var(--border)] px-3 py-2 text-sm">Weekly delivery</span>
+            <span class="rounded-full border border-[color:var(--border)] px-3 py-2 text-sm">Pause anytime</span>
+            <span class="rounded-full border border-[color:var(--border)] px-3 py-2 text-sm">Neighborhood pickup</span>
+          </div>
+        </section>
+
+        <div class="hidden rounded-2xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900" data-api-banner></div>
+
+        <form class="grid gap-6 rounded-2xl border border-[color:var(--border)] bg-[color:var(--surface)] p-6" data-subscribe-form novalidate action="javascript:void(0)">
+          <div class="hidden rounded-xl border border-emerald-500 bg-emerald-50 p-4 text-sm text-emerald-800" data-form-success role="status" aria-live="polite">
+            Subscription saved. We will follow up with delivery details shortly.
+          </div>
+          <div class="hidden rounded-xl border border-amber-400 bg-amber-50 p-4 text-sm text-amber-900" data-form-error role="status" aria-live="polite">
+            We could not reach the API. Your request is saved locally for this demo.
+          </div>
+
+          <div class="grid gap-5 md:grid-cols-2">
+            <div class="space-y-2">
+              <label class="text-sm font-medium" for="full-name">Full name</label>
+              <input
+                class="w-full rounded-full border border-[color:var(--border)] bg-[color:var(--surface)] px-4 py-2.5 text-base focus-ring"
+                id="full-name"
+                name="full-name"
+                type="text"
+                autocomplete="name"
+                aria-describedby="full-name-error"
+                required
+              />
+              <p class="text-xs text-red-600" id="full-name-error"></p>
+            </div>
+
+            <div class="space-y-2">
+              <label class="text-sm font-medium" for="email">Email address</label>
+              <input
+                class="w-full rounded-full border border-[color:var(--border)] bg-[color:var(--surface)] px-4 py-2.5 text-base focus-ring"
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                aria-describedby="email-error"
+                required
+              />
+              <p class="text-xs text-red-600" id="email-error"></p>
+            </div>
+          </div>
+
+          <div class="grid gap-5 md:grid-cols-2">
+            <div class="space-y-2">
+              <label class="text-sm font-medium" for="plan">Select a plan</label>
+              <select
+                class="w-full rounded-full border border-[color:var(--border)] bg-[color:var(--surface)] px-4 py-2.5 text-base focus-ring"
+                id="plan"
+                name="plan"
+                aria-describedby="plan-error"
+                required
+              >
+                <option value="">Choose one</option>
+                <option value="weekly">Weekly harvest</option>
+                <option value="biweekly">Biweekly share</option>
+                <option value="monthly">Monthly pantry</option>
+              </select>
+              <p class="text-xs text-red-600" id="plan-error"></p>
+            </div>
+
+            <div class="space-y-2">
+              <label class="text-sm font-medium" for="delivery">Delivery note</label>
+              <input
+                class="w-full rounded-full border border-[color:var(--border)] bg-[color:var(--surface)] px-4 py-2.5 text-base focus-ring"
+                id="delivery"
+                name="delivery"
+                type="text"
+                placeholder="Optional instructions"
+              />
+            </div>
+          </div>
+
+          <div class="space-y-2">
+            <label class="flex items-center gap-3 text-sm font-medium" for="agree">
+              <input
+                class="h-4 w-4 rounded border border-[color:var(--border)] focus-ring"
+                id="agree"
+                name="agree"
+                type="checkbox"
+                aria-describedby="agree-error"
+                required
+              />
+              I agree to the subscription terms and weekly delivery updates.
+            </label>
+            <p class="text-xs text-red-600" id="agree-error"></p>
+          </div>
+
+          <div class="flex flex-wrap gap-4">
+            <button class="btn-primary focus-ring" type="submit" data-submit-button>
+              <span data-submit-label>Submit subscription</span>
+            </button>
+            <button class="rounded-full border border-[color:var(--border)] px-4 py-2.5 text-base focus-ring" type="button">
+              Download plan guide
+            </button>
+          </div>
+        </form>
+      </main>
+
+      <footer class="mt-auto mb-10 text-base text-[color:var(--text)]">? 2026 Urban Harvest. All Rights Reserved</footer>
+    </div>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
+
+
+

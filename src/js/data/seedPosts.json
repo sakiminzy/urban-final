@@ -1,0 +1,101 @@
+[
+  {
+    "id": "post-1",
+    "title": "Three-leaf pesto for city kitchens",
+    "category": "Recipes",
+    "excerpt": "Basil, mint, and arugula blended into a bright, zero-waste pesto.",
+    "image": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=900&q=80",
+    "author": "Nila Karim",
+    "date": "Oct 6, 2025",
+    "readTime": "4 min",
+    "content": "Toast sunflower seeds and blend with basil, mint, and arugula.\n\nAdd roasted garlic, lemon zest, and olive oil. Finish with salt and pepper.\n\nServe with whole-grain pasta or sourdough."
+  },
+  {
+    "id": "post-2",
+    "title": "Weeknight microgreen noodles",
+    "category": "Recipes",
+    "excerpt": "A quick bowl with sesame dressing and rooftop greens.",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80",
+    "author": "Jonas Liu",
+    "date": "Oct 1, 2025",
+    "readTime": "3 min",
+    "content": "Whisk tahini, soy, ginger, and lime for a creamy dressing.\n\nToss with chilled noodles and finish with microgreens.\n\nTop with toasted peanuts and scallions."
+  },
+  {
+    "id": "post-3",
+    "title": "Citrus salad for sunny balconies",
+    "category": "Recipes",
+    "excerpt": "Segmented oranges, baby greens, and herb vinaigrette.",
+    "image": "https://images.unsplash.com/photo-1454944338482-a69bb95894af?auto=format&fit=crop&w=900&q=80",
+    "author": "Lea Morgan",
+    "date": "Sep 26, 2025",
+    "readTime": "5 min",
+    "content": "Combine citrus segments with tender greens.\n\nShake a vinaigrette of olive oil, honey, and chopped herbs.\n\nDress just before serving for max crunch."
+  },
+  {
+    "id": "post-4",
+    "title": "Balcony composting without the mess",
+    "category": "Tips",
+    "excerpt": "Layer greens and browns to keep odors low and soil rich.",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80",
+    "author": "Sasha Lee",
+    "date": "Sep 20, 2025",
+    "readTime": "6 min",
+    "content": "Use a sealed bin with a carbon-rich base layer.\n\nAdd dry leaves or shredded paper with each food scrap layer.\n\nStir weekly to keep air flowing."
+  },
+  {
+    "id": "post-5",
+    "title": "Water-wise drip setup",
+    "category": "Tips",
+    "excerpt": "Simple drip lines that keep roots hydrated in summer heat.",
+    "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+    "author": "Rae Patel",
+    "date": "Sep 12, 2025",
+    "readTime": "5 min",
+    "content": "Use a gravity-fed reservoir with inline drippers.\n\nWater early in the morning to reduce evaporation.\n\nAdd mulch to keep roots cool."
+  },
+  {
+    "id": "post-6",
+    "title": "Shade cloth for rooftop beds",
+    "category": "Tips",
+    "excerpt": "Protect delicate greens during peak afternoon sun.",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80",
+    "author": "Carlos Mendes",
+    "date": "Sep 5, 2025",
+    "readTime": "4 min",
+    "content": "Use 40-50% shade cloth to reduce heat stress.\n\nAnchor cloth above beds to keep airflow moving.\n\nCheck tension after windy days."
+  },
+  {
+    "id": "post-7",
+    "title": "Inside a neighborhood greenhouse",
+    "category": "Articles",
+    "excerpt": "Tour a co-op space that grows produce for 12 city blocks.",
+    "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=900&q=80",
+    "author": "Mara Singh",
+    "date": "Aug 28, 2025",
+    "readTime": "7 min",
+    "content": "The co-op greenhouse shares tools, seedlings, and harvest schedules.\n\nMembers rotate watering shifts and share a weekly distribution table.\n\nThe model cuts food miles and builds local resilience."
+  },
+  {
+    "id": "post-8",
+    "title": "How CSA shares build community",
+    "category": "Articles",
+    "excerpt": "Subscriptions that fund growers and shorten supply lines.",
+    "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=900&q=80",
+    "author": "Nina Osei",
+    "date": "Aug 18, 2025",
+    "readTime": "6 min",
+    "content": "CSA shares provide predictable income for growers.\n\nSubscribers receive updates, recipes, and farm visits.\n\nThe result is stronger neighborhood food ties."
+  },
+  {
+    "id": "post-9",
+    "title": "Zero-mile produce report",
+    "category": "Articles",
+    "excerpt": "Tracking the impact of local growing on city emissions.",
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+    "author": "Emil Duarte",
+    "date": "Aug 8, 2025",
+    "readTime": "8 min",
+    "content": "Urban Harvest reduced average food miles by 42% in 2025.\n\nShorter routes mean fresher food and fewer transport emissions.\n\nNew targets focus on expanding bike delivery routes."
+  }
+]

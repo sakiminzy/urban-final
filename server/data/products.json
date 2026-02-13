@@ -1,0 +1,206 @@
+[
+  {
+    "id": "uh-001",
+    "name": "Rooftop Basil Bundle",
+    "category": "Herbs",
+    "price": 6.5,
+    "description": "Aromatic basil harvested the same morning from rooftop beds.",
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 92,
+    "inStock": true,
+    "origin": "Sunset Rooftop Co-op",
+    "harvestDate": "Oct 6, 2025",
+    "notes": [
+      "Best used fresh within 3 days.",
+      "Pairs well with citrus and olive oil.",
+      "Grown without synthetic pesticides."
+    ]
+  },
+  {
+    "id": "uh-002",
+    "name": "Hydroponic Lettuce Mix",
+    "category": "Greens",
+    "price": 5.25,
+    "description": "Crisp leaves grown in closed-loop hydroponic systems.",
+    "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 88,
+    "inStock": true,
+    "origin": "Harbor Hydro Lab",
+    "harvestDate": "Oct 5, 2025",
+    "notes": [
+      "Triple-washed and ready to serve.",
+      "Store in the crisper for peak crunch.",
+      "Water savings: 60% vs soil beds."
+    ]
+  },
+  {
+    "id": "uh-003",
+    "name": "Windowbox Tomato Pack",
+    "category": "Vegetables",
+    "price": 8.75,
+    "description": "Sweet cherry tomatoes with zero-mile travel.",
+    "image": "https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 84,
+    "inStock": false,
+    "origin": "Eastside Windowsill Guild",
+    "harvestDate": "Oct 2, 2025",
+    "notes": [
+      "Available again next harvest cycle.",
+      "Ideal for salads and quick roasting.",
+      "Picked at peak ripeness for flavor."
+    ]
+  },
+  {
+    "id": "uh-004",
+    "name": "Microgreens Starter",
+    "category": "Microgreens",
+    "price": 7,
+    "description": "Sunflower, radish, and pea shoots for salads.",
+    "image": "https://images.unsplash.com/photo-1486328228599-85db4443971f?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 95,
+    "inStock": true,
+    "origin": "Skyline Grow Deck",
+    "harvestDate": "Oct 6, 2025",
+    "notes": [
+      "Great for grain bowls and sandwiches.",
+      "Rinse gently before serving.",
+      "High nutrient density in every bite."
+    ]
+  },
+  {
+    "id": "uh-005",
+    "name": "Community CSA Share",
+    "category": "Bundles",
+    "price": 22,
+    "description": "Weekly rotating pick of seasonal harvests.",
+    "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 90,
+    "inStock": true,
+    "origin": "Citywide CSA Hub",
+    "harvestDate": "Weekly",
+    "notes": [
+      "Includes 6-8 seasonal items.",
+      "Swap two items per week.",
+      "Supports 12 neighborhood growers."
+    ]
+  },
+  {
+    "id": "uh-006",
+    "name": "Pollinator Flower Mix",
+    "category": "Flowers",
+    "price": 9.5,
+    "description": "Blooms that support bees and butterflies.",
+    "image": "https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 86,
+    "inStock": true,
+    "origin": "Bee Lane Garden",
+    "harvestDate": "Oct 4, 2025",
+    "notes": [
+      "Keep stems in cool water.",
+      "Petal mix changes weekly.",
+      "Supports local pollinators."
+    ]
+  },
+  {
+    "id": "uh-007",
+    "name": "City Herb Tea Box",
+    "category": "Herbs",
+    "price": 12,
+    "description": "Dried mint, lemon balm, and chamomile from local plots.",
+    "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 91,
+    "inStock": false,
+    "origin": "Old Town Drying Loft",
+    "harvestDate": "Oct 1, 2025",
+    "notes": [
+      "Caffeine-free herbal blend.",
+      "Steep for 6 minutes.",
+      "Limited batch this month."
+    ]
+  },
+  {
+    "id": "uh-008",
+    "name": "Rooftop Radish Crisp",
+    "category": "Vegetables",
+    "price": 4.75,
+    "description": "Peppery radishes with crunchy stems and leaves.",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 89,
+    "inStock": true,
+    "origin": "Union Roof Growers",
+    "harvestDate": "Oct 6, 2025",
+    "notes": [
+      "Enjoy raw with sea salt.",
+      "Greens make a quick saute.",
+      "Packed within 2 hours of harvest."
+    ]
+  },
+  {
+    "id": "uh-009",
+    "name": "Skyline Strawberry Pint",
+    "category": "Fruit",
+    "price": 7.5,
+    "description": "Sweet rooftop strawberries harvested at sunrise.",
+    "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 87,
+    "inStock": true,
+    "origin": "Northline Berry Deck",
+    "harvestDate": "Oct 6, 2025",
+    "notes": [
+      "Best chilled before serving.",
+      "Pairs with basil and balsamic.",
+      "Packed in compostable cartons."
+    ]
+  },
+  {
+    "id": "uh-010",
+    "name": "Seasonal Soup Kit",
+    "category": "Bundles",
+    "price": 16.5,
+    "description": "Curated mix of greens and roots for quick soups.",
+    "image": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 90,
+    "inStock": true,
+    "origin": "Central Market Kitchen",
+    "harvestDate": "Oct 5, 2025",
+    "notes": [
+      "Includes herbs and aromatics.",
+      "Ready in under 30 minutes.",
+      "Ideal for meal prep."
+    ]
+  },
+  {
+    "id": "uh-011",
+    "name": "Balcony Salad Mix",
+    "category": "Greens",
+    "price": 6.25,
+    "description": "Tender lettuces with a citrusy bite.",
+    "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 88,
+    "inStock": true,
+    "origin": "Bayview Balcony Farm",
+    "harvestDate": "Oct 6, 2025",
+    "notes": [
+      "Great base for grain bowls.",
+      "Keep chilled for best texture.",
+      "Locally packaged."
+    ]
+  },
+  {
+    "id": "uh-012",
+    "name": "Garden Bouquet",
+    "category": "Flowers",
+    "price": 14,
+    "description": "Aromatic blooms from neighborhood gardens.",
+    "image": "https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=900&q=80",
+    "sustainabilityScore": 85,
+    "inStock": true,
+    "origin": "Maple Street Gardens",
+    "harvestDate": "Oct 3, 2025",
+    "notes": [
+      "Trim stems and refresh water daily.",
+      "Petal mix varies by week.",
+      "Hand-tied in reusable wrap."
+    ]
+  }
+]

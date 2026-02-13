@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Farm-fresh produce grown in the city. Urban Harvest delivers hyper-local farming with fresher food, shorter supply chains, and healthier communities." />
+    <meta name="theme-color" content="#42976b" />
+    <link rel="canonical" href="https://urbanharvest.com/" />
+    <title>Urban Harvest | Home</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Syne:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400&display=swap"
+    />
+  </head>
+  <body class="min-h-screen" data-api-base="http://localhost:3000">
+    <div class="mx-auto flex min-h-screen w-full max-w-[1440px] flex-col gap-10 px-10 pt-10">
+      <header class="flex items-center justify-between">
+        <a href="/index.html" class="flex h-11 w-11 items-center justify-center focus-ring" aria-label="Urban Harvest home">
+          <img class="h-9 w-9" data-theme-logo-dark src="/src/assets/images/logo_d.svg" alt="" />
+          <img class="hidden h-9 w-9" data-theme-logo-light src="/src/assets/images/logo_l.svg" alt="" />
+        </a>
+        <div class="flex items-center gap-6">
+          <nav class="hidden items-center gap-5 text-base text-[color:var(--text)] lg:flex" data-nav-menu id="primary-nav">
+            <a class="focus-ring" data-nav-link href="/index.html" aria-current="page">Home</a>
+            <a class="focus-ring" data-nav-link href="/products.html">Products</a>
+            <a class="focus-ring" data-nav-link href="/subscribe.html">Subscribe</a>
+            <a class="focus-ring" data-nav-link href="/community.html">Community</a>
+            <a class="focus-ring" data-nav-link href="/about.html">About</a>
+          </nav>
+          <button
+            class="hidden h-6 w-6 items-center justify-center text-[color:var(--text)] lg:flex"
+            data-theme-toggle
+            aria-pressed="false"
+            aria-label="Toggle dark mode"
+            type="button"
+          >
+            <span class="material-symbols-outlined text-[22px]" data-theme-icon>dark_mode</span>
+            <span class="sr-only" data-theme-label>Dark Mode</span>
+          </button>
+          <button
+            class="flex items-center justify-center rounded-full border border-[color:var(--border)] p-2 text-[color:var(--text)] lg:hidden focus-ring"
+            data-nav-toggle
+            aria-expanded="false"
+            aria-controls="primary-nav-mobile"
+            aria-label="Toggle menu"
+            type="button"
+          >
+            <span class="material-symbols-outlined text-[22px]">menu</span>
+          </button>
+        </div>
+      </header>
+
+      <nav
+        id="primary-nav-mobile"
+        data-nav-menu
+        class="hidden flex w-full flex-col gap-4 rounded-2xl border border-[color:var(--border)] bg-[color:var(--surface)] px-6 py-4 text-base text-[color:var(--text)] lg:hidden"
+        aria-hidden="true"
+        hidden
+      >
+        <a class="focus-ring" data-nav-link href="/index.html">Home</a>
+        <a class="focus-ring" data-nav-link href="/products.html">Products</a>
+        <a class="focus-ring" data-nav-link href="/subscribe.html">Subscribe</a>
+        <a class="focus-ring" data-nav-link href="/community.html">Community</a>
+        <a class="focus-ring" data-nav-link href="/about.html">About</a>
+      </nav>
+
+      <main class="relative flex flex-1 flex-col justify-start gap-10 lg:flex-row">
+        <section class="flex w-full max-w-[582px] flex-col gap-8 lg:min-h-[520px]">
+          <div class="flex flex-col gap-5">
+            <h1 class="font-display text-[52px] font-medium leading-[1] tracking-[-0.04em] text-[color:var(--text)] sm:text-[60px]">
+              Farm-fresh produce,
+              <span class="text-[color:var(--accent)]">grown in the city</span>
+            </h1>
+            <p class="text-lg leading-6 text-[color:var(--muted)]">
+              Hyper-local farming that delivers fresher food, shorter supply chains, and healthier communities for everyone, everywhere.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <a class="btn-primary focus-ring" href="/products.html">Browse Products</a>
+            <a class="rounded-full border border-[color:var(--border)] px-4 py-2.5 text-base focus-ring" href="/subscribe.html">
+              Start a Plan
+            </a>
+          </div>
+          <div class="mt-10 flex flex-wrap gap-3">
+            <span class="rounded-full border border-[color:var(--border)] px-3 py-2 text-sm">Hyper Local Support</span>
+            <span class="rounded-full border border-[color:var(--border)] px-3 py-2 text-sm">Smart Subscriptions</span>
+            <span class="rounded-full border border-[color:var(--border)] px-3 py-2 text-sm">Community Powered</span>
+          </div>
+        </section>
+
+        <div class="flex w-full items-center justify-center lg:absolute lg:right-0 lg:top-6 lg:w-[691px]">
+          <img
+            class="h-[360px] w-[360px] object-contain sm:h-[420px] sm:w-[420px] lg:h-[691px] lg:w-[691px]"
+            src="/src/assets/images/heroimage.png"
+            alt="Urban Harvest hero plant illustration"
+          />
+        </div>
+      </main>
+
+      <footer class="mt-auto mb-10 text-base text-[color:var(--text)]"> 2026 Urban Harvest. All Rights Reserved</footer>
+    </div>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
